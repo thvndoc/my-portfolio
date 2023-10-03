@@ -6,31 +6,101 @@ box-sizing: border-box;
 
 :root {
     --text-color: #202020;
+    --hover: #4d30ab;
 }
 h1, h2, h3, h4, h5, h6, p, a {
     color: var(--text-color);
     font-family: Nunito, sans-serif;
 }
+
 /*Styling for body. Display flex used to ensure footer stays at the bottom*/
 body {
     display: flex;
     flex-direction: column;
     background-color: #f7f7f5;
-    padding: 0 2em;
+    padding: 0 4em;
 }
 
-/*Styling for navbar*/
+/*Styling for header & navbar*/
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a img {
+    height: 50px;
+}
+
 .nav-bar ul {
     display: flex;
     list-style: none;
 }
 .nav-bar a {
-   text-decoration: none;
-   color: var(--text-color);
-   transition: all 0.3s;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s;
+    margin-left: 1em;
 }
-.nav-bar a:hover {
-    color: #4d30ab;
+.nav-bar a:hover,
+.socials a:hover {
+    color: var(--hover);
+}
+
+.about-me {
+    padding: 2em 0;
+    background-color: chocolate;
+}
+.about-me p {
+    font-size: 1.125rem;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+}
+
+.card-1, .card-2, .card-3 {
+    width: 427px;
+    height: 500px;
+    /*flex: 1;*/
+    flex-wrap: wrap;
+    border-radius: 16px;
+    box-shadow: 2px 2px 8px 0px #636363;
+    padding: 1em 2em;
+}
+
+.card-1 {
+    background: linear-gradient(to bottom, #EDEDEB 50%, #fff 50%);
+}
+
+.card-2 {
+    background: linear-gradient(to bottom, #EDEFEA 50%, #fff 50%);
+}
+
+.card-3 {
+    background: linear-gradient(to bottom, #E8ECEB 50%, #fff 50%);
+}
+
+.card-1 img {
+    height: 250px;
 }
 
 
+/*Styling for footer*/
+footer {
+    text-align: center;
+}
+
+.footer {
+    height: 80px;
+}
+
+.socials a {
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 0.3s;
+}
