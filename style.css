@@ -50,6 +50,7 @@ header a img {
     color: var(--hover);
 }
 
+/*Styling for about me section*/
 .about-me {
     margin-top: 2em;
 }
@@ -58,6 +59,7 @@ header a img {
     font-size: 1.125rem;
 }
 
+/*Styling for cards section*/
 .cards {
     display: flex;
     gap: 16px;
