@@ -135,7 +135,8 @@ header a img {
     margin-bottom: 0.25em;
 }
 
-.see-case-study {
+.see-case-study, 
+.see-live-preview {
     width: fit-content;
     display: flex;
     gap: 16px;
@@ -152,7 +153,8 @@ header a img {
     margin-top: 1em;
 }
 
-/*Styling for coding projects section*/
+/*Styling for coding projects section. 
+Button is styled in cards section alongside other buttons*/
 .coding {
     margin-top: 2em;
 }
@@ -184,7 +186,9 @@ header a img {
 
 .project p {
     text-align: left;
+    font-size: 1em;
 }
+
 
 
 
