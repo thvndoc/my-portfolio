@@ -65,12 +65,6 @@ header a img {
     height: 65px;
 }
 
-.tech-skills {
-    display: flex;
-    align-items: center;
-    margin-top: 2em;
-}
-
 /*Styling for cards section*/
 .cards-section h3 {
     text-align: center;
