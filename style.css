@@ -51,9 +51,9 @@ header a img {
 }
 
 .about-me {
-    padding: 2em 0;
-    background-color: chocolate;
+    margin-top: 2em;
 }
+
 .about-me p {
     font-size: 1.125rem;
 }
@@ -73,6 +73,19 @@ header a img {
     padding: 1em 2em;
 }
 
+.see-case-study {
+    width: fit-content;
+    display: flex;
+    gap: 16px;
+    justify-content: left;
+    align-items: center;
+    background-color: #A7B1FF;
+    padding: 0.625em 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
 .card-1 {
     background: linear-gradient(to bottom, #EDEDEB 50%, #fff 50%);
 }
@@ -86,7 +99,7 @@ header a img {
 }
 
 .card-1 img {
-    height: 250px;
+    height: 270px;
 }
 
 
