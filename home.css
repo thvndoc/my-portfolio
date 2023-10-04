@@ -33,7 +33,7 @@ header {
     left: 0;
     padding: 0 2em;
     width: 100%;
-    z-index: 999; /* To make sure it's above other content */
+    z-index: 999; /* To make sure it's above other content*/
     background-color: #f7f7f5;
     height: 80px;
     display: flex;
@@ -41,7 +41,7 @@ header {
     align-items: center;
     box-shadow: 0.5px 0.5px 1px #727272;
 }
-
+ 
 header a img {
     height: 50px;
 }
