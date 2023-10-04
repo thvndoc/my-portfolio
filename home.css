@@ -18,7 +18,7 @@ h5, h6, p, a, i {
     font-family: Nunito, sans-serif;
 }
 
-/*Styling for body. Display flex used to ensure footer stays at the bottom*/
+/*************Styling for body. Display flex used to ensure footer stays at the bottom***********/
 body {
     display: flex;
     flex-direction: column;
@@ -26,10 +26,52 @@ body {
     padding: 4.5em 4em 0 4em;
 }
 
-/*Styling for header & navbar*/
+/********************************Styling for header & navbar*************************************/
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: #f7f7f5;
+    padding: 12px 2em;
+    box-shadow: 0.5px 0.5px 1px #727272;
+}
+.logo img {height: 50px;}
+.menu {display: flex;}
+.menu li {padding-left: 30px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #df1414;
+    text-align: center;
+    transition: all 0.3s;
+    position: relative;
+    text-transform: uppercase;
+}
 
-
-
+.menu li a:hover {color: aqua;}
+.open-menu , .close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {display: none;}
 
 /*Styling for about me section*/
 .about-me {
@@ -129,8 +171,8 @@ body {
     margin-top: 0.5em;
 }
 
-/*Styling for projects section. 
-Button is styled in cards section alongside other buttons*/
+/**********************************Styling for projects section.*********************************
+*********************Button is styled in cards section alongside other buttons*******************/
 .projects-section {
     margin-top: 2em;
 }
@@ -201,7 +243,7 @@ Button is styled in cards section alongside other buttons*/
     margin-top: 0.5em;
 }
 
-/*Styling for footer*/
+/***********************************Styling for footer******************************************/
 footer {
     text-align: center;
     display: flex;
@@ -228,4 +270,32 @@ footer {
     font-size: 2rem;
     transition: all 0.3s;
     margin-right: 0.5em;
+}
+
+/*********************************Syling for media query*************************************/
+@media(max-width: 610px) {
+    .menu {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        width: fit-content;
+        height: 60%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #f7f7f5;
+        transition: all 0.3s;
+    }
+    .menu li {
+        margin-top: 40px;
+        text-align: start;
+    }
+    .menu li a {
+        padding: 0px;
+    }
+    .open-menu , .close-menu {
+        display: block;
+    }
+    #check:checked ~ .menu {right: 0;}
 }
