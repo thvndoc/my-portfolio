@@ -27,41 +27,9 @@ body {
 }
 
 /*Styling for header & navbar*/
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0 2em;
-    width: 100%;
-    z-index: 999; /* To make sure it's above other content*/
-    background-color: #f7f7f5;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0.5px 0.5px 1px #727272;
-}
- 
-header a img {
-    height: 50px;
-}
 
-.nav-bar ul {
-    display: flex;
-    list-style: none;
-}
-.nav-bar a {
-    font-size: 1.125rem;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--text-color);
-    transition: all 0.3s;
-    margin-left: 1em;
-}
-.nav-bar a:hover,
-.socials a i:hover {
-    color: var(--hover);
-}
+
+
 
 /*Styling for about me section*/
 .about-me {
