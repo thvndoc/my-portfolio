@@ -286,20 +286,18 @@ footer {
         align-items: start;
         justify-content: center;
         width: fit-content;
-        height: 60%;
+        height: 35%;
         position: fixed;
         top: 0;
         right: -100%;
         z-index: 100;
         background-color: #f7f7f5;
         transition: all 0.3s;
+        padding: 0 2em;
     }
     .menu li {
         margin-top: 40px;
         text-align: start;
-    }
-    .menu li a {
-        padding: 0px;
     }
     .open-menu , .close-menu {
         display: block;
