@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f7f7f5;
-    padding: 0 4em;
+    padding: 4.5em 4em 0 4em;
 }
 
 /*Styling for header & navbar*/
@@ -33,12 +33,13 @@ header {
     left: 0;
     padding: 0 2em;
     width: 100%;
-    z-index: 100; /* To make sure it's above other content */
+    z-index: 999; /* To make sure it's above other content */
     background-color: #f7f7f5;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0.5px 0.5px 1px #727272;
 }
 
 header a img {
@@ -116,10 +117,9 @@ header a img {
     height: 270px;
 }
 
-.img img {
-    margin: 0 auto;
-    /*display: flex;
-    justify-content: center;*/
+.img {
+    display: flex;
+    justify-content: center;
 }
 
 #disclaimer-2 {
@@ -161,7 +161,7 @@ header a img {
     margin-top: 0.5em;
 }
 
-/*Styling for coding projects section. 
+/*Styling for projects section. 
 Button is styled in cards section alongside other buttons*/
 .projects-section {
     margin-top: 2em;
@@ -232,9 +232,6 @@ Button is styled in cards section alongside other buttons*/
 .see-live-preview {
     margin-top: 0.5em;
 }
-
-
-
 
 /*Styling for footer*/
 footer {
