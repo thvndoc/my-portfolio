@@ -4,6 +4,9 @@ padding: 0;
 box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 :root {
     --text-color: #202020;
     --hover: #4d30ab;
@@ -25,6 +28,13 @@ body {
 
 /*Styling for header & navbar*/
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 2em;
+    width: 100%;
+    z-index: 100; /* To make sure it's above other content */
+    background-color: #f7f7f5;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -106,9 +116,10 @@ header a img {
     height: 270px;
 }
 
-.img {
-    display: flex;
-    justify-content: center;
+.img img {
+    margin: 0 auto;
+    /*display: flex;
+    justify-content: center;*/
 }
 
 #disclaimer-2 {
@@ -152,11 +163,11 @@ header a img {
 
 /*Styling for coding projects section. 
 Button is styled in cards section alongside other buttons*/
-.coding-section {
+.projects-section {
     margin-top: 2em;
 }
 
-.coding-section h5 {
+.projects-section h5 {
     font-size: 2rem;
     text-align: center;
 }
