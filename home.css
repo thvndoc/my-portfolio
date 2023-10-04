@@ -32,29 +32,31 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    position: relative;
     background-color: #f7f7f5;
-    padding: 12px 2em;
+    padding: 0 2em;
     box-shadow: 0.5px 0.5px 1px #727272;
 }
 .logo img {height: 50px;}
 .menu {display: flex;}
-.menu li {padding-left: 30px;}
+.menu li {padding-left: 1em;}
 .menu li a {
+    font-size: 1.125rem;
+    font-weight: 600;
     display: inline-block;
     text-decoration: none;
-    color: #df1414;
+    color: var(--text-color);
     text-align: center;
     transition: all 0.3s;
     position: relative;
     text-transform: uppercase;
 }
 
-.menu li a:hover {color: aqua;}
+.menu li a:hover {color: var(--hover);}
 .open-menu , .close-menu {
     position: absolute;
     color: var(--color1);
