@@ -1,0 +1,102 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    :root {
+        --text-color: #202020;
+        --hover: #4d30ab;
+    }
+    
+    h1, h2, h3, h4, 
+    h5, h6, p, a, i {
+        color: var(--text-color);
+        font-family: Nunito, sans-serif;
+    }
+    
+    /*Styling for body. Display flex used to ensure footer stays at the bottom*/
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: #f7f7f5;
+        padding: 4.5em 4em 0 4em;
+    }
+    
+    /*Styling for header & navbar*/
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0 2em;
+        width: 100%;
+        z-index: 999; /* To make sure it's above other content */
+        background-color: #f7f7f5;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0.5px 0.5px 1px #727272;
+    }
+    
+    header a img {
+        height: 50px;
+    }
+    
+    .nav-bar ul {
+        display: flex;
+        list-style: none;
+    }
+    .nav-bar a {
+        font-size: 1.125rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--text-color);
+        transition: all 0.3s;
+        margin-left: 1em;
+    }
+    .nav-bar a:hover,
+    .socials a i:hover {
+        color: var(--hover);
+    }
+
+    
+
+
+
+
+
+
+
+
+    /*Styling for footer*/
+footer {
+    text-align: center;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.footer {
+    height: 80px;
+    margin-top: 2em;
+}
+
+.footer hr {
+    color: #20202021;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials a i {
+    font-size: 2rem;
+    transition: all 0.3s;
+    margin-right: 0.5em;
+}
