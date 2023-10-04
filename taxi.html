@@ -13,12 +13,20 @@
 <body>
 <!--This is the header-->
 <header>
-    <a href="#"><img src="./images/logo.png" alt="Thando Cibi logo"></a>
-    <nav class="nav-bar">
-        <ul>
-            <a href="/index.html"><li>HOME</li></a>
-            <a href="https://6d83bdff-6280-4f82-9d62-b5c1b465ec4c.filesusr.com/ugd/ad9929_d6c1913c70b24089908457180cdc6aa9.pdf" target="_blank"><li>DOWNLOAD CV</li></a>
-            <a href="#end"><li>CONTACT</li></a>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo'><a href='/index.html'><img src='./images/logo.png'/></a></li>
+
+            <input type='checkbox' id='check' />
+
+            <span class="menu">
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="https://6d83bdff-6280-4f82-9d62-b5c1b465ec4c.filesusr.com/ugd/ad9929_d6c1913c70b24089908457180cdc6aa9.pdf" target="_blank"">DOWNLOAD CV</a></li>
+                <li><a href="#end">CONTACT</a></li>
+                <label for="check" class="close-menu"><i class="fa-solid fa-xmark"></i></label>
+            </span> <!--'label for='' will look for id only, NOT class-->
+            
+            <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
         </ul>
     </nav>
 </header>
