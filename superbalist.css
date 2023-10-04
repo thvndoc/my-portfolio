@@ -18,7 +18,7 @@
         font-family: Nunito, sans-serif;
     }
     
-    /*************Styling for body. Display flex used to ensure footer stays at the bottom***********/
+    /***********Styling for body. Display flex used to ensure footer stays at the bottom**********/
     body {
         display: flex;
         flex-direction: column;
@@ -26,7 +26,7 @@
         padding: 4.5em 4em 0 4em;
     }
     
-    /********************************Styling for header & navbar*************************************/
+    /******************************Styling for header & navbar*************************************/
     .nav-bar {
         position: fixed;
         top: 0;
