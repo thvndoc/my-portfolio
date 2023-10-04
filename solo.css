@@ -126,6 +126,7 @@ footer {
         justify-content: center;
         width: fit-content;
         height: 35%;
+        padding: 0 2em;
         position: fixed;
         top: 0;
         right: -100%;
