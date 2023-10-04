@@ -131,8 +131,8 @@ body {
 }
 
 .img {
-    display: flex;
-    justify-content: center;
+    max-width: fit-content;
+    margin: auto;
 }
 
 #disclaimer-2 {
@@ -196,8 +196,7 @@ body {
 }
 
 .project .image {
-    display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
 .project img {
