@@ -275,6 +275,10 @@ footer {
     margin-right: 0.5em;
 }
 
+.socials a i:hover {
+    color: var(--hover);
+}
+
 /*********************************Syling for media query*************************************/
 @media(max-width: 610px) {
     .menu {
