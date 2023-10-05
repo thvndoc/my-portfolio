@@ -107,10 +107,6 @@ body {
 }
 
 .card-1, .card-2, .card-3 {
-    /*max-width: 427px;
-    max-height: 500px;
-    /*flex: 1;*/
-    /*flex-wrap: wrap;*/
     border-radius: 16px;
     box-shadow: 0.5px 0.5px 4px 0px #727272;
     padding: 1em 2em;
