@@ -190,9 +190,9 @@ footer {
 /*********************************Syling for media query*************************************/
 @media(max-width: 430px) {
     body {
-        margin: 2em 1em 0 1em; 
+        margin: 2em 1em 0 1em;
     }
-
+    
     .menu {
         flex-direction: column;
         align-items: start;
@@ -210,9 +210,6 @@ footer {
     .menu li {
         margin-top: 40px;
         text-align: start;
-    }
-    .menu li a {
-        padding: 0px;
     }
     .open-menu , .close-menu {
         display: block;
