@@ -148,6 +148,7 @@ h1 {
     width: fit-content;
 }
 
+/*********************Styling for intro section*********************/
 #video h3 {
     font-size: 3rem;
     color: var(--green);
@@ -161,6 +162,7 @@ h1 {
     border-radius: 5px;
 }
 
+/*************Styling for part where I found the shoe**************/
 #found-shoe img {
     border-radius: 5px;
 }
@@ -202,12 +204,14 @@ h1 {
     color: var(--green);
 }
 
+/*********************Styling for how might we section*********************/
+/******************Styling for taking it a step further section******************/
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 350px));
     justify-content: center;
     gap: 16px;
-    border: 2px solid red;
+    border: 2px solid rgb(30, 255, 0);
 }
 .step-further {
     margin-bottom: 0.5em;
