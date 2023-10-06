@@ -278,6 +278,10 @@ h1 {
     color: var(--green);
 }
 
+.h5.two {
+    margin-top: 0.5em;
+}
+
 /*********************Styling for end section*********************/
 .end-body {
     max-height: fit-content;
@@ -291,13 +295,15 @@ h1 {
     color: var(--green);
 }
 
-.end-body p {
+.end-body a {
+    text-decoration: none;
     font-size: 1.25rem;
     max-width: fit-content;
     color: #fff;
     background-color: var(--green);
     padding: 0.625em 1em;
     border-radius: 5px;
+    box-shadow: 0.5px 0.5px 1px #727272;
 }
 /***********************************Styling for footer******************************************/
 footer {
