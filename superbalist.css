@@ -211,8 +211,8 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(160px, 350px));
     justify-content: center;
     gap: 16px;
-    border: 2px solid rgb(30, 255, 0);
 }
+
 .step-further {
     margin-bottom: 0.5em;
 }
@@ -225,6 +225,8 @@ h1 {
     padding: 2em;
     background-color: #fff;
     border-radius: 5px;
+    display: grid;
+    justify-items: center;
 }
 
 .card img {
@@ -236,6 +238,11 @@ h1 {
     font-weight: bold;
     color: var(--green);
 }
+
+.card-img img {
+    max-height: 500px;
+}
+
 
 
 
