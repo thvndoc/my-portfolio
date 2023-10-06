@@ -148,17 +148,31 @@ h1 {
     width: fit-content;
 }
 
-#video {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 500px));
-    justify-items: center;
-    gap: 16px;
-}
-
 #video h3 {
     font-size: 3rem;
     color: var(--green);
 }
+
+.superbalist-video {
+    margin: auto;
+}
+
+#found-shoe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#found-shoe p {
+    line-height: 28px;
+    max-width: 620px;
+}
+
+#found-shoe .media {
+    max-width: 620px;
+    padding: 0;
+}
+    
 
 
 
