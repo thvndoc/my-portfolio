@@ -104,7 +104,7 @@ h1 {
     margin-top: 2em;
 }
 
-.card {
+.container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 350px));
     justify-content: center;
@@ -172,7 +172,8 @@ h1 {
 }
 
 #found-shoe .content, 
-#how-might-we .content {
+#how-might-we .content,
+#user-flow .content {
     max-width: 700px;
     margin: auto;
 }
@@ -190,35 +191,50 @@ h1 {
     margin-bottom: 0.5em;
 }
 
-#how-might-we {
+#how-might-we,
+#user-flow {
     display: flex;
     flex-direction: column;
 }
 
-.wrapper {
-    border: 2px solid red;
+#user-flow h4 {
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 350px));
     justify-content: center;
     gap: 16px;
+    border: 2px solid red;
+}
+.step-further {
+    margin-bottom: 0.5em;
+}
+.current-flow {
+    margin-top: 0.5em;
 }
 
-.wrapper-card {
+.card{
     box-shadow: 0.5px 0.5px 4px 0px #727272;
     padding: 2em;
     background-color: #fff;
     border-radius: 5px;
 }
 
-.wrapper-card img {
+.card img {
     max-width: 250px;
 }
 
-.wrapper-card p {
+.card p {
     font-size: 1.125rem;
     font-weight: bold;
     color: var(--green);
 }
+
+
+
 
 
     
