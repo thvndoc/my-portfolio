@@ -213,6 +213,10 @@ h1 {
     gap: 16px;
 }
 
+.card-container.one {
+    margin-top: 1em;
+}
+
 .step-further {
     margin-bottom: 0.5em;
 }
@@ -227,16 +231,28 @@ h1 {
     border-radius: 5px;
     display: grid;
     justify-items: center;
+    align-items: start;
 }
 
 .card img {
     max-width: 250px;
 }
 
+.card .text.two {
+    width: 240px;
+}
+#text-two {
+    width: 225px;
+}
+.card .text.one {
+    width: 250px;
+}
+
 .card p {
     font-size: 1.125rem;
     font-weight: bold;
     color: var(--green);
+    text-align: left;
 }
 
 .card-img img {
