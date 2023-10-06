@@ -148,6 +148,19 @@ h1 {
     width: fit-content;
 }
 
+#video {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 500px));
+    justify-items: center;
+    gap: 16px;
+}
+
+#video h3 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+
 
 
 
