@@ -10,6 +10,7 @@
     :root {
         --text-color: #202020;
         --hover: #4d30ab;
+        --dark-grey: #202020;
     }
     
     h1, h2, h3, h4, 
@@ -60,7 +61,6 @@
     .menu li a:hover {color: var(--hover);}
     .open-menu , .close-menu {
         position: absolute;
-        color: var(--color1);
         cursor: pointer;
         font-size: 1.5rem;
         display: none;
@@ -88,7 +88,6 @@
 .end-body {
     max-height: fit-content;
     margin-top: 1em;
-    border: 2px solid red;
     display: grid;
     justify-items: center;
 }
