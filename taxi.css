@@ -76,7 +76,27 @@
     }
     #check {display: none;}
     
-    
+/********************************Styling for title section*************************************/
+.cs-title .img {
+    max-width: 400px;
+    margin: auto;
+}
+
+.cs-title img {
+    max-width: 100%;
+}
+
+.note {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.5em;
+}
 
 
 
