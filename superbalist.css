@@ -286,7 +286,6 @@ h1 {
 .end-body {
     max-height: fit-content;
     margin-top: 1em;
-    border: 2px solid red;
     display: grid;
     justify-items: center;
 }
