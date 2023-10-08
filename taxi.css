@@ -93,7 +93,7 @@
 }
 .end-body h6 {
     font-size: 4.5rem;
-    color: var(--green);
+    color: var(--dark-grey);
 }
 
 .end-body a {
@@ -101,7 +101,7 @@
     font-size: 1.25rem;
     max-width: fit-content;
     color: #fff;
-    background-color: var(--green);
+    background-color: var(--dark-grey);
     padding: 0.625em 1em;
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 1px #727272;
