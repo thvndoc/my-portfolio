@@ -77,9 +77,13 @@
     #check {display: none;}
     
 /********************************Styling for title section*************************************/
-.cs-title .img {
+.cs-title figure {
     max-width: 400px;
     margin: auto;
+}
+
+figcaption {
+    font-family: Nunito, sans-serif;
 }
 
 .cs-title img {
@@ -92,11 +96,6 @@
     margin-top: 1em;
 }
 
-h1 {
-    font-size: 2em;
-    text-align: center;
-    margin-top: 0.5em;
-}
 
 
 
