@@ -89,7 +89,6 @@
 footer {
     max-height: fit-content;
     margin: 1em 0;
-    border: 2px solid green;
 }
 
 .footer {
@@ -99,7 +98,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    margin-top: 1em;
 }
 
 footer hr {

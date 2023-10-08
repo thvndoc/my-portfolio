@@ -84,6 +84,29 @@
 
 
 
+/*********************Styling for end section*********************/
+.end-body {
+    max-height: fit-content;
+    margin-top: 1em;
+    border: 2px solid red;
+    display: grid;
+    justify-items: center;
+}
+.end-body h6 {
+    font-size: 4.5rem;
+    color: var(--green);
+}
+
+.end-body a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    max-width: fit-content;
+    color: #fff;
+    background-color: var(--green);
+    padding: 0.625em 1em;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 1px #727272;
+}
 
 /***********************************Styling for footer******************************************/
 footer {
@@ -98,6 +121,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1em;
 }
 
 footer hr {
