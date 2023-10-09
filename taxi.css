@@ -199,7 +199,8 @@ figcaption {
     font-size: 1.125rem;
 }
 
-.container.representation .why {
+.container.representation .why,
+.circle-2-text .current-journey {
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -207,6 +208,32 @@ figcaption {
 .container.representation img {
     max-width: 100%;
 }
+
+/**********Styling for commuters. current journey class styled with representation*************/
+.container.commuters img {
+    max-width: 100%;
+}
+
+.circle-2-text .heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container.commuters img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
