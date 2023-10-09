@@ -317,6 +317,29 @@ figcaption {
     max-width: 150px;
 }
 
+.malii-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 1em;
+}
+
+.malii-content p {
+    max-width: 250px;
+    background-color: #D5E3F9;
+    padding: 1em;
+}
+
+.malii-button {
+    background-color: #011aa3;
+    color: #fff;
+    padding: 0.625em 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 1px #727272;
+}
+
 
 
 
@@ -339,7 +362,7 @@ figcaption {
 }
 
 span {
-    background-color: #0119a342;
+    background-color: #D5E3F9;
 }
 
 
