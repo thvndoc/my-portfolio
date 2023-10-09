@@ -97,8 +97,13 @@ figcaption {
 }
 
 /******************Container*********************/
-.container {
-    margin-top: 1em;
+.container,
+.archetypes,
+.going-cashless,
+.competitors,
+.solution,
+.prototypes {
+    margin-top: 1.5em;
     border: 2px solid red;
 }
 
@@ -134,6 +139,7 @@ figcaption {
 
 .container p {
     font-size: 1.125rem;
+    max-width: 90%;
 }
 
 /******************Styling for Roadmap*********************/
@@ -212,6 +218,7 @@ figcaption {
 /**********Styling for commuters. current journey class styled with representation*************/
 .container.commuters img {
     max-width: 100%;
+    margin-top: 1em;
 }
 
 .circle-2 {
@@ -245,6 +252,87 @@ figcaption {
 }
 
 /****************************Styling for archetypes*****************************/
+.archetypes .wrapper h5 {
+    font-size: 1.5rem;
+    text-decoration: underline 1.5px;
+    margin-bottom: 0.5em;
+}
+
+.archetypes p {
+    font-size: 1.125rem;
+    max-width: 90%;
+}
+
+.archetypes .sub {
+    margin-bottom: 0.5em;
+}
+
+.archetypes .wrapper {
+    margin: auto;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 500px));
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.archetypes .heading {
+    font-weight: bold;
+}
+
+.going-cashless h5,
+.competitors .heading h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+
+/******************Styling for competitiors section******************/
+.competitors .heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.competitors .heading img {
+    max-width: 60px;
+}
+
+.malii h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.malii img {
+    max-width: 150px;
+}
+
+
+
+
+
+/******************Styling for solution section******************/
+.solution .heading.one {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.solution .heading.two {
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+
+.solution p {
+    font-size: 1.125rem;
+    margin-bottom: 1em;
+    max-width: 90%;
+}
+
+span {
+    background-color: #0119a342;
+}
 
 
 
