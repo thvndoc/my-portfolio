@@ -418,6 +418,26 @@ figcaption {
     background-color: #D5E3F9;
 }
 
+.accessories,
+.models {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+.tag img,
+.device img {
+    max-height: 250px;
+}
+
+.tag h5,
+.device h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 
 
 
