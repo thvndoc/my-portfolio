@@ -300,6 +300,14 @@ figcaption {
     max-width: 60px;
 }
 
+.malii {
+    margin-top: 1em;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .malii h5 {
     font-size: 1.5rem;
     font-weight: bold;
