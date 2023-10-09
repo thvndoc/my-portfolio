@@ -369,8 +369,8 @@ figcaption {
 }
 /**********gaps identified*******/
 .content-wrapper {
-    background-color: burlywood;
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
 }
@@ -379,13 +379,16 @@ figcaption {
 .content-wrapper .fairpay-gap {
     background-color: #4d30ab;
     max-width: 350px;
-    padding: 1em;
+    padding: 1em
 }
 
 .content-wrapper p {
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
+/**********brainstorming ideas*******/
+
 
 
 
