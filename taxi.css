@@ -98,6 +98,7 @@ figcaption {
 
 /******************Container*********************/
 .container {
+    margin-top: 1em;
     border: 2px solid red;
 }
 
@@ -135,25 +136,18 @@ figcaption {
     font-size: 1.125rem;
 }
 
-.container.intro,
-.container.summary,
-.container.roadmap {
-    margin-top: 1em;
-}
-
 /******************Styling for Roadmap*********************/
-.card-container {
+.card-container.one {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 300px));
     justify-content: center;
     gap: 16px;
 }
 
-.card {
+.card.roadmap {
     padding: 2em;
     display: grid;
     justify-items: center;
-    align-items: start;
 }
 
 .card img {
@@ -170,6 +164,29 @@ figcaption {
 }
 
 /******************Styling for The industry*********************/
+.container.industry {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.card.circle {
+    align-self: center;
+}
+
+.container.industry img {
+    max-width: 200px;
+}
+
+#circle-1 img {
+    max-width: 80px;
+}
+
+.text.industry {
+    max-width: 300px;
+}
 
 
 
@@ -179,6 +196,7 @@ figcaption {
     margin-top: 1em;
     display: grid;
     justify-items: center;
+    border: 2px solid red;
 }
 
 .end-body h6 {
