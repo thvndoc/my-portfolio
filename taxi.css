@@ -438,6 +438,32 @@ figcaption {
     font-weight: bold;
 }
 
+/**************************Styling for prototypes section************************/
+.screens {
+    display: grid;
+    justify-items: center;
+}
+
+.prototypes h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.screens p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+}
+
+.screens img {
+    max-width: 90%;
+}
+
+.models {
+    margin-top: 2em;
+}
 
 
 
@@ -454,7 +480,7 @@ figcaption {
 
 
 
-/******************Styling for existing banking app******************/
+/****Styling for existing banking app****/
 .container.existing-ba img{
     max-width: 100%;
     margin-top: 1em;
