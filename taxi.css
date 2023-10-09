@@ -209,12 +209,13 @@ figcaption {
 }
 
 /*********************Styling for end section*********************/
-.container.reference h6 {
+.container.reference ol h6 {
     font-size: 2rem;
 }
 
 .container.reference a {
-
+    font-weight: bold;
+    color: #011aa3;
 }
 
 
