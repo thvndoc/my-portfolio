@@ -96,10 +96,38 @@ figcaption {
     margin-top: 1em;
 }
 
+/******************Styling for role and contribution section*********************/
+.box1,
+.box2 {
+   font-size: 1.125rem;
+}
 
+.role-wrapper {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 1em;
+}
 
+.box1 {
+    border: 2px solid green;
 
+}
 
+.box2 {
+    border: 2px solid green;
+
+}
+
+.role,
+.contributions {
+    font-weight: bold;
+}
+
+.box2 ul li {
+    font-family: Nunito, sans-serif;
+}
 
 
 
@@ -189,6 +217,7 @@ footer hr {
     }
     .open-menu , .close-menu {
         display: block;
+        color: var(--dark-grey);
     }
     #check:checked ~ .menu {right: 0;}
 }

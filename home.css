@@ -309,6 +309,7 @@ footer {
     }
     .open-menu , .close-menu {
         display: block;
+        color: var(--dark-grey);
     }
     #check:checked ~ .menu {right: 0;}
 }
