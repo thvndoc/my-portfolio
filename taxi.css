@@ -96,6 +96,11 @@ figcaption {
     margin-top: 1em;
 }
 
+/******************Container*********************/
+.container {
+    border: 2px solid red;
+}
+
 /******************Styling for role and contribution section*********************/
 .box1,
 .box2 {
@@ -120,8 +125,9 @@ figcaption {
 }
 
 /******************Styling for intro and summary section*********************/
-.conatiner h1,
-.container h2 {
+.container h1,
+.container h2,
+.container h3 {
     font-size: 2rem;
 }
 
@@ -133,6 +139,11 @@ figcaption {
 .container.summary {
     margin-top: 1em;
 }
+
+/******************Styling for Roadmap*********************/
+.container 
+{}
+
 
 /*********************Styling for end section*********************/
 .end-body {
