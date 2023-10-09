@@ -208,9 +208,17 @@ figcaption {
     margin-top: 1em;
 }
 
-/*********************Styling for end section*********************/
-.container.reference ol h6 {
+/*********************Styling for reference list*********************/
+.container.reference h6 {
     font-size: 2rem;
+}
+
+.container.reference ol {
+    font-size: 1.125rem;
+    padding: 0 1em;
+}
+.container.reference li {
+    font-family: Nunito, sans-serif;
 }
 
 .container.reference a {
