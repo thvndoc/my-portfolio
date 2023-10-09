@@ -208,6 +208,15 @@ figcaption {
     margin-top: 1em;
 }
 
+/*********************Styling for end section*********************/
+.container.reference h6 {
+    font-size: 2rem;
+}
+
+.container.reference a {
+
+}
+
 
 /*********************Styling for end section*********************/
 .end-body {
