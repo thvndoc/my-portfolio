@@ -14,7 +14,7 @@
     }
     
     h1, h2, h3, h4, 
-    h5, h6, p, a, i {
+    h5, h6, p, a, i, q {
         color: var(--text-color);
         font-family: Nunito, sans-serif;
     }
@@ -214,21 +214,38 @@ figcaption {
     max-width: 100%;
 }
 
+.circle-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .circle-2 .heading {
     font-size: 2rem;
     font-weight: bold;
 }
+
+.circle-2 .text {
+    flex: 1;
+}
+
 .circle-2 p {
     margin-bottom: 1em;
 }
 
 .circle-2 img {
-    max-width: 60px;
+    width: 60px;
 }
 
-.container.commuters img {
-    max-width: 100%;
+.container.commuters blockquote {
+    max-width: 500px;
+    display: grid;
 }
+
+/****************************Styling for archetypes*****************************/
+
 
 
 
