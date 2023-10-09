@@ -181,13 +181,32 @@ figcaption {
 }
 
 #circle-1 img {
-    max-width: 80px;
+    max-width: 60px;
 }
 
 .text.industry {
     max-width: 300px;
 }
 
+/******************Styling for typical representation*********************/
+.container.representation h5 {
+    font-size: 2rem;
+}
+
+.blue-circle-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-circle-container img {
+    max-width: 95%;
+}
+
+.why-cash {
+    margin-top: 1em;
+}
 
 
 /*********************Styling for end section*********************/
