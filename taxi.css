@@ -200,7 +200,7 @@ figcaption {
 }
 
 .container.representation .why,
-.circle-2-text .journey {
+.container.commuters .journey {
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -214,9 +214,16 @@ figcaption {
     max-width: 100%;
 }
 
-.circle-2-text .heading {
+.circle-2 .heading {
     font-size: 2rem;
     font-weight: bold;
+}
+.circle-2 p {
+    margin-bottom: 1em;
+}
+
+.circle-2 img {
+    max-width: 60px;
 }
 
 .container.commuters img {
