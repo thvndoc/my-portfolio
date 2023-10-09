@@ -13,8 +13,9 @@
         --dark-grey: #202020;
     }
     
-    h1, h2, h3, h4, 
-    h5, h6, p, a, i, q {
+    h1, h2, h3, 
+    h4, h5, h6,
+    p, a, i, q, li {
         color: var(--text-color);
         font-family: Nunito, sans-serif;
     }
@@ -124,10 +125,6 @@ figcaption {
 .role,
 .contributions {
     font-weight: bold;
-}
-
-.box2 ul li {
-    font-family: Nunito, sans-serif;
 }
 
 /******************Styling for intro and summary section*********************/
@@ -371,9 +368,27 @@ figcaption {
     margin: auto;
 }
 /**********gaps identified*******/
-.gaps {
-
+.content-wrapper {
+    background-color: burlywood;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
+
+.content-wrapper .malii-gap,
+.content-wrapper .fairpay-gap {
+    background-color: #4d30ab;
+    max-width: 350px;
+    padding: 1em;
+}
+
+.content-wrapper p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
 
 
 
@@ -395,7 +410,7 @@ figcaption {
     max-width: 90%;
 }
 
-span {
+.highlight {
     background-color: #D5E3F9;
 }
 
