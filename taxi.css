@@ -283,14 +283,15 @@ figcaption {
 }
 
 .going-cashless h5,
-.competitors .heading h5 {
+.competitors .heading h5,
+.gaps h5 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 0.25em;
 }
 
 /******************Styling for competitiors section******************/
-.competitors .heading {
+.competitors .heading {     
     display: flex;
     align-items: center;
     gap: 16px;
@@ -299,16 +300,16 @@ figcaption {
 .competitors .heading img {
     max-width: 60px;
 }
-
-.malii {
+/**********Malii app*******/
+.malii { 
     margin-top: 1em;
-    border: 2px solid green;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.malii h5 {
+.malii h5,
+.fairpay h5 {
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -331,15 +332,48 @@ figcaption {
     padding: 1em;
 }
 
-.malii-button {
+.malii-button,
+.fairpay .button {
+    max-width: fit-content;
     background-color: #011aa3;
-    color: #fff;
     padding: 0.625em 1em;
     margin-top: 1em;
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 1px #727272;
 }
 
+.malii-button a,
+.fairpay .button a {
+    color: #fff;
+    text-decoration: none;
+}
+/**********Fairpay app*******/
+.fairpay {
+    display: grid;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.fairpay-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.fairpay-images img {
+    max-width: 250px;
+}
+
+.fairpay .button {
+    margin: auto;
+}
+/**********gaps identified*******/
+.gaps {
+
+}
 
 
 
