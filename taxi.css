@@ -139,6 +139,7 @@ figcaption {
     display: grid;
     justify-items: center;
 }
+
 .end-body h6 {
     font-size: 4.5rem;
     color: var(--dark-grey);
