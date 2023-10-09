@@ -189,23 +189,38 @@ figcaption {
 }
 
 /******************Styling for typical representation*********************/
-.container.representation h5 {
-    font-size: 2rem;
+.container.representation .h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1em;
 }
 
-.blue-circle-container {
+.container.representation p {
+    font-size: 1.125rem;
+}
+
+.container.representation .why {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container.representation img {
     max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.blue-circle-container img {
-    max-width: 95%;
-}
 
-.why-cash {
+
+
+/******************Styling for existing banking app******************/
+.container.existing-ba img{
+    max-width: 100%;
     margin-top: 1em;
+}
+/*********************Styling for reference list*********************/
+.container.existing-ba p,
+.container.conclusion .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 /*********************Styling for reference list*********************/
@@ -225,7 +240,6 @@ figcaption {
     font-weight: bold;
     color: #011aa3;
 }
-
 
 /*********************Styling for end section*********************/
 .end-body {
