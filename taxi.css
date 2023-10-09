@@ -465,6 +465,13 @@ figcaption {
     margin-top: 2em;
 }
 
+.screens .alternative {
+    font-size: 1.125rem;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
 
 
 
