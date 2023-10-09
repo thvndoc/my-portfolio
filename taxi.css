@@ -103,22 +103,11 @@ figcaption {
 }
 
 .role-wrapper {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 1em;
-}
-
-.box1 {
-    border: 2px solid green;
-
-}
-
-.box2 {
-    border: 2px solid green;
-
 }
 
 .role,
@@ -130,7 +119,20 @@ figcaption {
     font-family: Nunito, sans-serif;
 }
 
+/******************Styling for intro and summary section*********************/
+.conatiner h1,
+.container h2 {
+    font-size: 2rem;
+}
 
+.container p {
+    font-size: 1.125rem;
+}
+
+.container.intro,
+.container.summary {
+    margin-top: 1em;
+}
 
 /*********************Styling for end section*********************/
 .end-body {
