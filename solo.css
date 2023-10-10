@@ -117,7 +117,7 @@
 
 
 
-/***************************Styling for brainstorming ideas************************/
+/*******************Styling for problem statement & lightning demo********************/
 .statement h4,
 .statement h5 {
     font-size: 2rem;
@@ -204,6 +204,7 @@
 .container.conclusion .paragraph {
     font-size: 1.125rem;
     max-width: 90%;
+    line-height: 30px;
 }
 
 /*********************************Styling for thank you/end section***************************/
