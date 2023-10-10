@@ -74,7 +74,12 @@
         right: 20px;
     }
     #check {display: none;}
-    
+ 
+.container {
+    border: 2px solid blue;
+    margin-top: 1.5em;
+}    
+
 /********************************Styling for title section*************************************/
 .cs-title .img {
     max-width: 400px;
@@ -113,10 +118,49 @@
 
 
 
+
+
+
+
+
+.container.usability img {
+    max-width: 90%;
+}
+
+.container.usability .graph {
+    max-width: 100%;
+    margin: 1em 0;
+    display: grid;
+    justify-items: center;
+}
+
+/******************************Styling for hi-fi prototype************************/
+.container.hifi {
+    display: grid;
+    justify-items: center;
+}
+
+.container.hifi img {
+    max-width: 90%;
+    margin-top: 1em;
+}
+/*********************************Styling for conclusion***************************/
+.container.hifi p,
+.container.usability h5,
+.container.conclusion .heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container.usability p,
+.container.conclusion .paragraph {
+    font-size: 1.125rem;
+    max-width: 90%;
+}
+
 /*********************************Styling for thank you/end section***************************/
 .end-body {
     max-height: fit-content;
-    margin-top: 1em;
+    margin-top: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
