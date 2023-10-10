@@ -457,8 +457,34 @@ figcaption {
     margin-top: 2em;
 }
 /*****Styling for usability testing*****/
-.usability 
+.usability h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1em;
+}
 
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.feedback-cards {
+    max-width: 300px;
+    display: grid;
+    justify-items: center;
+    gap: 16px;
+}
+
+.feedback img {
+    max-width: 100px;
+}
+    
+.usability .refine {
+    margin-top: 1em;
+}
 
 /**************************Styling for prototypes section************************/
 .screens {
@@ -493,21 +519,6 @@ figcaption {
     margin-top: 2em;
     margin-bottom: 0.5em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /****Styling for existing banking app****/
 .container.existing-ba img{
