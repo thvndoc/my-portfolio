@@ -10,6 +10,7 @@
     :root {
         --text-color: #202020;
         --hover: #4d30ab;
+        --light-purple: #F5F5FF;
     }
     
     h1, h2, h3, h4, 
@@ -116,21 +117,39 @@
 
 
 
+/***************************Styling for brainstorming ideas************************/
+.statement h4,
+.statement h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
 
-
+.statement p {
+    font-size: 1.125rem;
+    line-height: 30px;
+}
+.statement .highlight {
+    background-color: #d0d0fc;
+}
 /***************************Styling for brainstorming ideas************************/
 
 .container.brainstorm .ideas {
-    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 1em;
 }
 .ideas .note {
-    background-color: #F5F5FF;
+    font-size: 0.875rem;
+    background-color: var(--light-purple);
     width: 200px;
     height: 200px;
     box-shadow: 0.5px 0.5px 1px #727272;
     display: grid;
     align-items: center;
     padding: 0.625em;
+    text-align: left;
 }
 /***************************Styling for wireframe & flow************************/
 .container.wireframe p {
@@ -143,7 +162,7 @@
 
 .container .flow,
 .container .wireframe {
-    background-color: #F5F5FF;
+    background-color: var(--light-purple);
     padding: 0.5em 0;
 }
 /****************************Styling for usability test************************/
