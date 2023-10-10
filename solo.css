@@ -127,7 +127,7 @@
     background-color: #F5F5FF;
     width: 150px;
     height: 150px;
-    box-shadow: ;
+    box-shadow: 0.5px 0.5px 1px #727272;
 }
 /***************************Styling for wireframe & flow************************/
 .container.wireframe p {
