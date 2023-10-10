@@ -118,8 +118,14 @@
 
 
 
+/***************************Styling for brainstorming ideas************************/
 
-
+.container.brainstorm .ideas {
+    border: 2px solid red;
+}
+.ideas .note {
+    background-color: #F5F5FF;
+}
 /***************************Styling for wireframe & flow************************/
 .container.wireframe p {
     margin: 1em 0;
@@ -158,6 +164,7 @@
     margin-top: 1em;
 }
 /*********************************Styling for conclusion***************************/
+.container.brainstorm h5,
 .container.wireframe h5,
 .container.hifi p,
 .container.usability h5,
@@ -166,7 +173,7 @@
     font-weight: bold;
 }
 
-.container.brainstorm,
+.container.brainstorm .chosen,
 .container.wireframe p,
 .container.usability p,
 .container.conclusion .paragraph {
