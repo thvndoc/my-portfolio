@@ -437,6 +437,12 @@ figcaption {
     font-size: 1.5rem;
     font-weight: bold;
 }
+/*******Styling for wireframes*********/
+.wireframes h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1em;
+}
 
 /**************************Styling for prototypes section************************/
 .screens {
