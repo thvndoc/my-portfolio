@@ -550,18 +550,22 @@ figcaption {
     color: #011aa3;
 }
 
-/*********************Styling for end section*********************/
+/*********************Styling for thank you/end section*********************/
 .end-body {
     max-height: fit-content;
     margin-top: 1em;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-items: center;
-    border: 2px solid red;
 }
 
 .end-body h6 {
+    text-align: center;
     font-size: 4.5rem;
     color: var(--dark-grey);
+    margin-bottom: 0.25em;
+    line-height: 64px;
 }
 
 .end-body a {
