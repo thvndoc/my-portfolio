@@ -208,6 +208,20 @@
     max-width: 200px;
 }
 
+.demo-box {
+    display: grid;
+    justify-items: center;
+}
+
+.demo-heading {
+    margin: 0.5em 0;
+}
+
+.lightning-demo {
+    max-width: 90%;
+    background-color: #fff;
+}
+
 /***************************Styling for brainstorming ideas************************/
 
 .container.brainstorm .ideas {
