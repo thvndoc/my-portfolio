@@ -172,22 +172,31 @@
 /******************************Styling for user persona section***********************************/
 .persona-box {
     border: 2px solid yellow;
-}
-
-.persona-box .content {
-    border: 2px solid green;
+    display: grid;
+    /*grid-template: 200px 200px 200px 200px / 1fr 1fr 1fr 1fr;  /*rows/colums*/
+    grid-template: repeat(3, 200px) / repeat(3, 1fr);  /*rows/columns - another way to write it*/  
+    justify-content: center;
+    gap: 16px;
 }
  
 .persona-box .profile {
-    border: 2px solid var(--highlight);
+    border: 2px solid var(--border);
     display: grid;
     justify-items: center;
-    max-width: fit-content;
     padding: 1em;
+    grid-row: 1/4;
+    grid-column: 1/2;
 }
 
 .profile img {
     max-width: 250px;
+}
+
+.user-profile {
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 q {
@@ -198,6 +207,7 @@ q {
 }
 
 .profile-heading {
+    max-width: fit-content;
     justify-self: start;    
     font-size: 1.25rem;
     font-weight: bold;
@@ -211,6 +221,32 @@ ul li .sub {
     border: 2px solid var(--border);
     padding: 1em;
 }
+
+#content-box-1 {
+    grid-row: 1/2;
+    grid-column: 2/4;
+}
+
+#content-box-2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#contest-box-3 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+#content-box-4 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+#content-box-4 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
 
 
 
