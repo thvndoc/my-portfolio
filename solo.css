@@ -14,7 +14,7 @@
     }
     
     h1, h2, h3, h4, 
-    h5, h6, p, a, i {
+    h5, h6, p, a, i, ul li, q {
         color: var(--text-color);
         font-family: Nunito, sans-serif;
     }
@@ -98,10 +98,6 @@
     margin-top: 1em;
 }
 
-
-
-
-
 /******************************Styling for abstract section***********************************/
 .container.abstract .wrapper {
     display: flex;
@@ -174,9 +170,27 @@
 /******************************Styling for user persona section***********************************/
 
 
+.persona-box .profile {
+    border: 2px solid red;
+    display: grid;
+}
 
+.profile img {
+    max-width: 250px;
+}
 
+q {
+    
+}
 
+.profile-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+ul li .sub {
+    font-weight: bold;
+}
 
 
 
@@ -195,6 +209,7 @@
 
 /*******************Styling for problem statement & lightning demo********************/
 .interviews h2,
+.persona-heading,
 .wrapper h4,
 .statement h5 {
     font-size: 2rem;
