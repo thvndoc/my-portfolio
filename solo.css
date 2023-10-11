@@ -104,10 +104,11 @@
 
 /******************************Styling for abstract section***********************************/
 .container.abstract .wrapper {
+    border: 2px solid aqua;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     margin-bottom: 1em;
 }
 
@@ -120,17 +121,20 @@
     font-size: 1.125rem;
 }
 
-.wrapper .text {
+.container.abstract .wrapper .text {
+    border: 2px solid greenyellow;
     max-width: 80%;
 }
 
 .container.abstract .wrapper img {
-    max-width: 280px;
+    max-width: 200px;
+    border: 2px solid red;
 }
 
 .role {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
