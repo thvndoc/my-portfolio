@@ -11,6 +11,8 @@
         --text-color: #202020;
         --hover: #4d30ab;
         --light-purple: #F5F5FF;
+        --highlight: #d0d0fc;
+        --border: #c1c1fc;
     }
     
     h1, h2, h3, h4, 
@@ -168,11 +170,16 @@
 }
 
 /******************************Styling for user persona section***********************************/
-
+.persona-box {
+    border: 2px solid yellow;
+}
 
 .persona-box .profile {
-    border: 2px solid red;
+    border: 2px solid var(--highlight);
     display: grid;
+    justify-items: center;
+    max-width: fit-content;
+    padding: 1em;
 }
 
 .profile img {
@@ -180,10 +187,14 @@
 }
 
 q {
-    
+    font-size: 1rem;
+    background-color: var(--highlight);
+    max-width: fit-content;
+    margin-top: 0.5em;
 }
 
 .profile-heading {
+    justify-self: start;    
     font-size: 1.25rem;
     font-weight: bold;
 }
@@ -191,6 +202,11 @@ q {
 ul li .sub {
     font-weight: bold;
 }
+
+.content-box {
+    border: 2px solid var(--highlight);
+}
+
 
 
 
@@ -221,7 +237,7 @@ ul li .sub {
     line-height: 30px;
 }
 .statement .highlight {
-    background-color: #d0d0fc;
+    background-color: var(--highlight);
 }
 
 .container.statement .wrapper {
