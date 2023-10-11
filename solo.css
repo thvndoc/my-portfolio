@@ -507,9 +507,20 @@ footer hr {
         color: var(--dark-grey);
     }
     #check:checked ~ .menu {right: 0;}
+
+    /*********problem statement********/
+    .wrapper .text {
+        max-width: 100%;
+    }    
     
     /*********hifi prototypes********/
     .container.hifi img {
         max-width: 100%;
+    }
+
+    /********user persona*********/
+    .persona-box {
+        display: flex;
+        flex-direction: column;
     }
 }
