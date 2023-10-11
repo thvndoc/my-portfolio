@@ -107,6 +107,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 1em;
 }
 
@@ -139,9 +140,8 @@
     width: 250px;
     height: 250px;
     display: grid;
-    align-items: center;
-    background-color: var(--light-purple);
-    padding: 0.625em;
+    align-items: start;    background-color: var(--light-purple);
+    padding: 0.75em;
     box-shadow: 0.5px 0.5px 1px #727272;
 }
 
