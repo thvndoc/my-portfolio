@@ -79,7 +79,6 @@
     #check {display: none;}
  
 .container {
-    border: 2px solid blue;
     margin-top: 1.5em;
 }    
 
@@ -247,28 +246,6 @@ ul li .sub {
     grid-column: 3/4;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*******************Styling for problem statement & lightning demo********************/
 .interviews h2,
 .persona-heading,
@@ -335,6 +312,11 @@ ul li .sub {
     padding: 0.625em;
     text-align: left;
 }
+
+.container.brainstorm h5 {
+    text-align: center;
+}
+
 /***************************Styling for wireframe & flow************************/
 .container.wireframe p {
     margin: 1em 0;
