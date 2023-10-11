@@ -150,6 +150,26 @@
 }
 
 /******************************Styling for user interview section***********************************/
+.container.interviews .img {
+    max-width: 100%;
+}
+
+.aff-interview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aff-interview p {
+    padding: 0.5em;
+    font-size: 1.125rem;
+    max-width: 80%;
+}
+
+.aff-interview img {
+    max-width: 200px;
+}
 
 
 
@@ -158,6 +178,7 @@
 
 
 /*******************Styling for problem statement & lightning demo********************/
+.interviews h2,
 .wrapper h4,
 .statement h5 {
     font-size: 2rem;
