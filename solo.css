@@ -104,7 +104,6 @@
 
 /******************************Styling for abstract section***********************************/
 .container.abstract .wrapper {
-    border: 2px solid aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,13 +121,11 @@
 }
 
 .container.abstract .wrapper .text {
-    border: 2px solid greenyellow;
     max-width: 80%;
 }
 
 .container.abstract .wrapper img {
     max-width: 200px;
-    border: 2px solid red;
 }
 
 .role {
