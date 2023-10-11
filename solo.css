@@ -104,10 +104,10 @@
 
 /******************************Styling for abstract section***********************************/
 .container.abstract .wrapper {
-    background-color: rgb(71, 221, 71);    
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1em;
 }
 
 .container.abstract h1 {
@@ -124,14 +124,30 @@
 }
 
 .container.abstract .wrapper img {
-    max-width: 250px;
+    max-width: 280px;
 }
 
+.role {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
 
+.role .box {
+    width: 250px;
+    height: 250px;
+    display: grid;
+    align-items: center;
+    background-color: var(--light-purple);
+    padding: 0.625em;
+    box-shadow: 0.5px 0.5px 1px #727272;
+}
 
-
-
-
+.role .box .sub {
+    font-weight: bold;
+}
 
 
 
@@ -155,7 +171,7 @@
     background-color: #d0d0fc;
 }
 
-.wrapper {
+.container.statement .wrapper {
     border: 2px solid green;
     display: flex;
     justify-content: center;
