@@ -181,8 +181,6 @@
  
 .persona-box .profile {
     border: 2px solid var(--border);
-    display: grid;
-    justify-items: center;
     padding: 1em;
     grid-row: 1/4;
 }
