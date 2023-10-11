@@ -131,7 +131,6 @@
 .role {
     display: flex;
     justify-content: space-between;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
@@ -150,6 +149,7 @@
     font-weight: bold;
 }
 
+/******************************Styling for user interview section***********************************/
 
 
 
@@ -173,7 +173,6 @@
 }
 
 .container.statement .wrapper {
-    border: 2px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
