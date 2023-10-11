@@ -173,7 +173,8 @@
     border: 2px solid yellow;
     display: grid;
     /*grid-template: 200px 200px 200px 200px / 1fr 1fr 1fr 1fr;  /*rows/colums*/
-    grid-template: repeat(3, 200px) / repeat(3, 1fr);  /*rows/columns - another way to write it*/  
+    /*grid-template: repeat(3, 1fr) / repeat(3, 1fr);  /*rows/columns - another way to write it*/  
+    grid-template: repeat(auto-fit minmax(288px, 1fr));  
     justify-content: center;
     gap: 16px;
 }
@@ -184,7 +185,6 @@
     justify-items: center;
     padding: 1em;
     grid-row: 1/4;
-    grid-column: 1/2;
 }
 
 .profile img {
