@@ -101,7 +101,7 @@ body {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 350px));
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
 }
 
