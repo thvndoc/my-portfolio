@@ -258,6 +258,12 @@ figcaption {
 }
 
 /****************************Styling for archetypes*****************************/
+.archetype-1,
+.archetype-2 {
+    background-color: #fff;
+    padding: 1em;
+}
+
 .archetypes .wrapper h5 {
     font-size: 1.5rem;
     text-decoration: underline 1.5px;
@@ -278,7 +284,7 @@ figcaption {
     min-width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 500px));
-    gap: 32px;
+    gap: 16px;
     justify-content: center;
     align-items: center;
     padding: 1em 0;
@@ -439,6 +445,7 @@ figcaption {
 .tag img,
 .device img {
     max-height: 250px;
+    padding: 1em;
 }
 
 .tag h5,
