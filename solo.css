@@ -330,7 +330,7 @@ ul li .sub {
 .container .flow,
 .container .wireframe {
     background-color: var(--light-purple);
-    padding: 0.5em 0;
+    padding: 0.5em 1em;
 }
 /****************************Styling for usability test************************/
 .container.wireframe img,
