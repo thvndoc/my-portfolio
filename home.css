@@ -97,11 +97,12 @@ body {
 .ux-section h3 {
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 0.5em;
 }
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 350px));
-    justify-content: space-between;
+    justify-content: center;
     gap: 16px;
 }
 
@@ -177,6 +178,8 @@ body {
 *********************Button is styled in cards section alongside other buttons*******************/
 .projects-section {
     margin-top: 2em;
+    display: grid;
+    justify-items: center;
 }
 
 .projects-section h5 {
