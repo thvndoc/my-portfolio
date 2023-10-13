@@ -261,7 +261,7 @@ footer {
 }
 
 .footer {
-    height: 80px;
+    max-height: fit-content;
     margin-top: 2em;
 }
 
